@@ -1,8 +1,9 @@
 import ProjectCard from "./ProjectCard";
 import projects from "../data/projectList";
+import "../css/projectList.css";
 
-export const ProjectList = (props, i) => {
-    const listCards = projects.map((proj) => {
+export const ProjectList = (props) => {
+    const listCards = projects.map((proj, i) => {
         return <ProjectCard key={i} project={proj}></ProjectCard>
     })
 

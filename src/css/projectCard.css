@@ -1,0 +1,25 @@
+.card {
+    padding: 5px;
+    max-width: 500px;
+    border: 2px solid #000000;
+    background-color: #e3e1e1;
+    margin: 3px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.card img {
+    width: 80%;
+    aspect-ratio: 20/9;
+    border: 1px solid #000000;
+}
+
+.card ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.card ul li {
+    width: 50%;
+}
